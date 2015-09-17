@@ -1,0 +1,8 @@
+{
+    "name": "dpaste-be-worker",
+    "description": "DPaste backend's worker",
+    "copyright": "Copyright © 2015, Digital Mars",
+    "authors": ["Damian Ziemba <nazriel@dzfl.pl>"],
+    "license": "BSL-1.0 or MPL-2.0",
+    "targetType": "executable"
+} 

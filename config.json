@@ -1,0 +1,41 @@
+﻿{
+	"compilers": [
+		{
+			"vendor": "dmd", 
+			"version": 20682, 
+			"versionString": "2.068.2", 
+			"binPath": "/usr/bin/dmd",
+			"includesPath": [
+				"/usr/include/dmd/druntime/import",
+				"/usr/include/dmd/phobos"
+			],
+			"libs64Path": [
+				"/usr/lib/x86_64-linux-gnu"
+			],
+			"libs32Path": [
+				"/opt/compilers/dmd/20682/lib32"
+			],
+			"libs64Files": [
+				"-lcurl",
+				"-lphobos2"
+			]
+		},
+
+		{
+			"vendor": "ldc", 
+			"version": 120, 
+			"versionString": "0.12.0", 
+			"binPath": "/opt/compilers/ldc/120/bin/ldc2",
+			"includesPath": [
+				"/opt/compilers/ldc/120/include"
+			],
+			"libs64Path": [
+				"/opt/compilers/ldc/120/lib64"
+			],
+			"libs32Path": [
+				"/opt/compilers/ldc/120/lib32"
+			]
+		}
+
+	]
+}

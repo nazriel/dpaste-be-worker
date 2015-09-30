@@ -4,5 +4,11 @@
     "copyright": "Copyright © 2015, Digital Mars",
     "authors": ["Damian Ziemba <nazriel@dzfl.pl>"],
     "license": "BSL-1.0 or MPL-2.0",
-    "targetType": "executable"
+    "targetType": "executable",
+	"dependencies": {
+		"vibe-d": "~>0.7.25-rc.1"
+	},
+    "versions": ["VibeCustomMain"],
+	"importPaths": ["../source"],
+	"sourceFiles": ["../source/dpaste/backend/common.d"]
 } 
